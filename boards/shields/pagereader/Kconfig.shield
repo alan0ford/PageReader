@@ -1,0 +1,2 @@
+config SHIELD_PAGEREADER
+    def_bool $(shields_list_contains,pagereader)
