@@ -21,7 +21,7 @@
 			&kp DOWN
 			&mo 1
             >;
-		sensor-bindings = <&inc_dec_kp UP DOWN>;
+		sensor-bindings = <&inc_dec_kp DOWN UP>;
         };
 		
         ctrl_layer {
@@ -30,7 +30,7 @@
 			&bootloader
 			&trans
 			>;
-		sensor-bindings = <&inc_dec_kp UP DOWN>;
+		sensor-bindings = <&inc_dec_kp DOWN UP>;
 	    };
     };
 };
